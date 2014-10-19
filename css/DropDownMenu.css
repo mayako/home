@@ -23,7 +23,7 @@
 }
 
 #dropdown-links{
-  background-color: blue; /* #DA4747 */
+  background-color: #DA4747; 
   display: none;
   left:0px;
   position: absolute;
