@@ -1,0 +1,131 @@
+/*
+* ESTILOS >> Base de Formatos
+* Autor: Yako Sylar
+*/
+@import "fonts.css";
+
+*{
+  margin:0px;
+  padding:0px;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  color:#333;
+  font-family:"Segoe UI";
+  font-size:14px;
+  font-weight:normal;
+  line-height:20px;
+  -webkit-font-smoothing: antialiased;
+}
+a{
+  color:#000;
+  text-decoration:none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:"OpenSans-Regular";
+  font-weight:400;
+  margin:0px auto;
+}
+h1{
+  font-family:"OpenSans-Light"; 
+  font-size:40px;
+  line-height:48px;
+}
+small{
+  color:#999;
+  font-size:0.6em;
+  letter-spacing: 1px;
+}
+h2{
+  font-size:26px;
+  line-height:34px;
+}
+h3{
+  font-size:20px;
+  line-height:26px;
+}
+h4{
+  font-size:15px;
+  line-height:20px;
+}
+h5{
+  font-size:13px;
+  line-height:20px;
+}
+h6{
+  font-size:11px;
+  line-height:11px;
+}
+
+dl{
+  margin-bottom:20px;
+}
+dt{
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:1px;
+}
+dd{
+  margin-left:10px;
+}
+dl.dl-horizontal{
+
+}
+dl.dl-horizontal dt{
+  clear:left;
+  float:left;
+  overflow:hidden;
+  text-align:right;
+  width:160px;
+}
+dl.dl-horizontal dd{
+  margin-left:180px;
+}
+section{
+  margin:10px;
+  padding:10px;
+}
+abbr{
+  border-bottom:1px dotted #999;
+  cursor: help;
+}
+blockquote{
+  border-left:5px solid #eee;
+  display:block;
+  margin-bottom:5px;
+  padding:0px 0px 0px 15px;
+}
+blockquote p{
+  margin-bottom:0px;
+  font-size:16px;
+  font-weight:300;
+  line-height:25px;
+}
+
+blockquote small{
+  color:#999;
+  display:block;
+  font-size:14px;
+  font-weight:400;
+  line-height:20px;
+}
+blockquote small:before{
+  content:'\2014 \00A0';
+}
+blockquote.right{
+  border-left:0px;
+  border-right:5px solid #eee;
+  padding-left:0px;
+  padding-right:15px;
+}
+blockquote.right p, blockquote.right small{
+  text-align:right;
+}

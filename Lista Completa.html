@@ -1,0 +1,148 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Lista Completa</title>
+
+  <link href="css/base-css.css" type="text/css" rel="stylesheet" />
+  <link href="css/diseno.css" type="text/css" rel="stylesheet" />
+  <link href="css/maquetacion.css" type="text/css" rel="stylesheet" />
+  <link href="css/tipos.css" type="text/css" rel="stylesheet" />
+  <link href="font-awesome-4.0.3/css/font-awesome.css" type="text/css" rel="stylesheet" />
+  <!--<link href="icomoon/style.css" type="text/css" rel="stylesheet" />-->
+  <link href="fontello-7fa6667e/css/fontello.css" type="text/css" rel="stylesheet" />
+
+  <script src="js/import-jquerys.js"></script>
+  <script src="js/pokemon.json"></script>
+  <script src="js/colorsTipos.js"></script>
+  <script src="js/funciones.js"></script>
+</head>
+<body>
+<base target="_blank">
+<div id="ddm_sector"></div>
+<div id="dropdown-links">
+  <div class="section">
+    <span class="header">Lista de Pokémon por Generación</span>
+    <ul>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_de_la_primera_generaci%C3%B3n?useskin=monobook">Primera Generacion</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_de_la_segunda_generaci%C3%B3n?useskin=monobook">Segunda Generacion</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_de_la_tercera_generaci%C3%B3n?useskin=monobook">Tercera Generacion</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_de_la_cuarta_generaci%C3%B3n?useskin=monobook">Cuarta Generacion</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_de_la_quinta_generaci%C3%B3n?useskin=monobook">Quinta Generacion</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_de_la_sexta_generaci%C3%B3n?useskin=monobook">Sexta Generacion</a></li>
+    </ul>
+  </div>
+  <div class="section">
+    <span class="header">Lista de Pokémon por Region</span>
+    <ul>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_seg%C3%BAn_la_Pok%C3%A9dex_de_Kanto?useskin=monobook">Pokédex de Kanto</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_seg%C3%BAn_la_Pok%C3%A9dex_de_Johto?useskin=monobook">Pokédex de Johto</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_seg%C3%BAn_la_Pok%C3%A9dex_de_Hoenn?useskin=monobook">Pokédex de Hoenn</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_seg%C3%BAn_la_Pok%C3%A9dex_de_Sinnoh?useskin=monobook">Pokédex de Sinnoh</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_seg%C3%BAn_la_Pok%C3%A9dex_de_Teselia?useskin=monobook">Pokédex de Unova</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Lista_de_Pok%C3%A9mon_seg%C3%BAn_la_Pok%C3%A9dex_de_Kalos?useskin=monobook">Pokédex de Kalos</a></li>
+     </ul>
+  </div>
+  <div class="section">
+    <span class="header">Regiones</span>
+    <ul>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Kanto?useskin=monobook">Kanto</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Johto?useskin=monobook">Johto</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Hoenn?useskin=monobook">Hoenn</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Sinnoh?useskin=monobook">Sinnoh</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Teselia?useskin=monobook">Unova</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Kalos?useskin=monobook">Kalos</a></li>
+     </ul>
+  </div>
+  <div class="section">
+    <span class="header">Generaciones</span>
+    <ul>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Primera_Generación?useskin=monobook">Primera</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Segunda_Generación?useskin=monobook">Segunda</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Tercera_Generación?useskin=monobook">Tercera</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Cuarta_Generación?useskin=monobook">Cuarta</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Quinta_Generación?useskin=monobook">Quinta</a></li>
+        <li><a href="http://es.pokemon.wikia.com/wiki/Sexta_Generación?useskin=monobook">Sexta</a></li>
+     </ul>
+  </div>
+</div>
+<nav>
+  <div id="nav-top"><div id="boton">TODOS</div></div>
+  <ul id="regiones">
+    <h4>REGIONES</h4>
+    <li data-url="Kanto"   data-title="Region de Kanto">Kanto</li>
+    <li data-url="Johto"   data-title="Region de Johto">Johto</li>
+    <li data-url="Hoenn"   data-title="Region de Hoenn">Hoenn</li>
+    <li data-url="Sinnoh"  data-title="Region de Sinnoh">Sinnoh</li>
+    <li data-url="Unova"   data-title="Region de Unova">Unova</li>
+    <li data-url="Kalos"   data-title="Region de Kalos">Kalos</li>
+  </ul>
+  <ul id="generaciones">
+    <h4>GENERACIONES</h4>
+    <li data-url="Primera_Generación" data-title="Primera Generación">Primera</li>
+    <li data-url="Segunda_Generación" data-title="Segunda Generación">Segunda</li>
+    <li data-url="Tercera_Generación" data-title="Tercera Generación">Tercera</li>
+    <li data-url="Cuarta_Generación"  data-title="Cuarta Generación" >Cuarta</li>
+    <li data-url="Quinta_Generación"  data-title="Quinta Generación" >Quinta</li>
+    <li data-url="Sexta_Generación"   data-title="Sexta Generación"  >Sexta</li>
+  </ul>
+  <ul id="elementos">
+    <h4><a href="Efectividades.html">ELEMENTOS</a></h4>
+    <li data-url="Tipo_acero"     data-title="Tipo Acero"    >Acero</li>
+    <li data-url="Tipo_agua"      data-title="Tipo Agua"     >Agua</li>
+    <li data-url="Tipo_bicho"     data-title="Tipo Bicho"    >Bicho</li>
+    <li data-url="Tipo_dragon"    data-title="Tipo Dragón"   >Dragon</li>
+    <li data-url="Tipo_electrico" data-title="Tipo Electrico">Electrico</li>
+    <li data-url="Tipo_fantasma"  data-title="Tipo Fantasma" >Fantasma</li>
+    <li data-url="Tipo_fuego"     data-title="Tipo Fuego"    >Fuego</li>
+    <li data-url="Tipo_hada"      data-title="Tipo Hada"     >Hada</li>
+    <li data-url="Tipo_hielo"     data-title="Tipo Hielo"    >Hielo</li>
+    <li data-url="Tipo_lucha"     data-title="Tipo Lucha"    >Lucha</li>
+    <li data-url="Tipo_normal"    data-title="Tipo Normal"   >Normal</li>
+    <li data-url="Tipo_planta"    data-title="Tipo Planta"   >Planta</li>
+    <li data-url="Tipo_psiquico"  data-title="Tipo Psíquico" >Psiquico</li>
+    <li data-url="Tipo_roca"      data-title="Tipo Roca"     >Roca</li>
+    <li data-url="Tipo_siniestro" data-title="Tipo Siniestro">Siniestro</li>
+    <li data-url="Tipo_tierra"    data-title="Tipo Tierra"   >Tierra</li>
+    <li data-url="Tipo_veneno"    data-title="Tipo Veneno"   >Veneno</li>
+    <li data-url="Tipo_volador"   data-title="Tipo Volador"  >Volador</li>
+  </ul>
+</nav>
+<div id="main">
+  <header>
+    <div id="dropdown-menu">
+      <h1>Pokédex  <span class="fa fa-angle-down"></span></h1>
+    </div>
+    <div id="search-box"><input type="text" name="name" placeholder="Search..."/></div>
+    <div id="compare"></div>
+    <div id="idPhoto">
+      <a href="Aventuras.html">
+        <div id="imgId"><img src="img/Yako-Grimp2.jpg" /></div>
+        <span id="trainer">Yako Grimp</span>
+      </a>
+    </div>
+  </header>
+  <div id="content">
+    <div id="content-top">
+      <h3>Todos</h3>
+      <i id="count">1-100 of 631</i>
+    </div>
+    <div id="list">
+      <ul id="list-full"></ul>
+    </div>
+  </div>
+  
+</div>
+<aside>
+  <div id="name"></div>
+  <div id="img"></div>
+  <div id="hability"></div>
+  <div id="content-mov">
+    <ul></ul>
+  </div>
+  <div id="pk-ball"></div>
+  <div id="footer"></div>
+</aside>
+</body>
+</html>

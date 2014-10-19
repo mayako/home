@@ -1,0 +1,461 @@
+﻿<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title></title>
+  <link href="css/base-css.css" rel="stylesheet" type="text/css" />
+  <script src="js/import-jquerys.js"></script>
+</head>
+<style>
+aside ul::-webkit-scrollbar{width:10px;background:transparent;}
+aside ul::-webkit-scrollbar-track{background:transparent;}
+aside ul::-webkit-scrollbar-thumb{background:#004050;}
+
+body *{
+  border:solid 0px;
+}
+body{
+  background: url(img/backgrounds/drakturqbub.png) 0px -200px fixed;
+  color:#fff;
+  padding:0px 20px;
+}
+header{
+  border-color:blue;
+  padding:15px 0px;
+}
+
+h1, h2{
+  font-family:"SegoeUI-Light" ;
+  font-weight:lighter;
+  text-shadow:0px 0px 2px #fff;
+}
+h1{
+  font-size:56px;
+}
+nav, nav *{
+  border-color:red;
+}
+nav{
+  padding:10px 0px;
+}
+nav li{
+  border-bottom:solid 3px transparent;
+  cursor:pointer;
+  display:inline-block;
+  font-size:34px;
+  margin:0px 10px;
+  padding:20px 0px;
+  text-align:center;
+  width:120px;
+}
+#active{
+  border-bottom:solid 3px #ccc;
+  color:#ccc;
+}
+a{
+  color:#fff;
+}
+
+nav li#active a{
+  color:#ccc;
+}
+#main{
+  border-color: pink;
+  bottom:10px;
+  overflow:hidden;
+  position:absolute;
+  top:160px;
+  width:1100px;
+}
+#content{
+  left:0px;
+  position:relative;
+}
+
+section{
+  border-color:red;
+  display:block;
+  float:left;
+  height:540px;
+  width:1100px;
+}
+#main ul, aside ul{
+  border-color: blue;
+  display:block;
+  float:left;
+  padding:0px;
+  max-width:1100px;
+}
+#main ul:nth-child(2){
+  margin:0px 50px;
+  width:250px;
+}
+#main ul:nth-child(2) li{
+  width:220px;
+}
+#main li, aside li{
+  /* background:url(img/trama.png); */
+  display:block;
+  float:left;
+  height:120px;
+  margin:5px;
+  overflow:hidden;
+  padding:5px;
+  position:relative;
+  text-align:center;
+  width:220px;
+}
+#main li img, aside li img{
+  height:100%;
+  transition:all .3s linear;
+}
+#main li:hover img, aside li:hover img{
+  opacity:0;
+}
+#main li:hover .name, aside li:hover .name{
+  opacity:1;
+}
+.name{
+  bottom:0px;
+  color:#fff;
+  font-size:20px;
+  left:0px;
+  opacity:0;
+  padding:50px 0px;
+  position:absolute;
+  right:0px;
+  top:0px;
+  transition:all .3s linear;
+  z-index:2;
+}
+
+aside{
+  background-color:#08576B;
+  bottom:0px;
+  overflow:hidden;
+  padding:0px;
+  position:absolute;
+  right:0px;
+  top:0px;
+  width:0px;
+  z-index:99;
+}
+aside h2{
+  margin:10px 0px 10px 45px;
+}
+aside ul{
+  overflow-x:hidden;
+  overflow-y:scroll;
+  margin:0px 10px;
+}
+aside #close{
+  border:solid 2px #fff;
+  border-radius:100%;
+  cursor:pointer;
+  font-family:"Pulsar";
+  font-weight:100;
+  font-size: 25px;
+  left:10px;
+  padding:3px 0px;
+  position:absolute;
+  text-shadow:1px 1px 1px #fff;
+  top:15px;
+}
+
+header #open{
+  border:solid 2px #fff;
+  border-radius:100%;
+  cursor:pointer;
+  font-family:"Pulsar";
+  font-size:30px;
+  padding:5px 0px;
+  position:absolute;
+  right:40px;
+  text-shadow:1px 1px 1px #fff;
+  top:30px;
+}
+
+</style>
+<body>
+<base target="_blank" />
+<header>
+  <h1>Aventuras</h1>
+</header>
+<aside>
+  <h2>Consideracion</h2>
+  <ul>
+    <li class="normal"><a class="name">Snorlax</a></li>
+    <li class="electrico"><a class="name">Mareep</a></li>
+    <li class="agua"><a class="name">Politoed</a></li>
+    <li class="normal"><a class="name">Girafarig</a></li>
+    <li class="normal"><a class="name">Miltank</a></li>
+    <li class="bicho"><a class="name">Ninjask</a></li>
+    <li class="bicho"><a class="name">Shedinja</a></li>
+    <li class="agua"><a class="name">Wailord</a></li>
+    <li class="fuego"><a class="name">Camerupt</a></li>
+    <li class="fuego"><a class="name">Torkoal</a></li>
+    <li class="electrico"><a class="name">Magnezone</a></li>
+    <li class="psiquico"><a class="name">Reuniclus</a></li>
+    <li class="electrico"><a class="name">Joltik</a></li>
+    <li class="fantasma"><a class="name">Chandelure</a></li>
+    <li class="normal"><a class="name">Braviary</a></li>
+  </ul>
+</aside>
+<nav>
+  <ul>
+    <li id="active" class="Johto"><a href="http://es.pokemon.wikia.com/wiki/Johto?useskin=monobook">Johto</a></li>
+    <li class="Kanto">Kanto</li>
+    <li class="Hoenn">Hoenn</li>
+    <li class="Sinnoh">Sinnoh</li>
+    <li class="Unova">Unova</li>
+    <li class="Kalos">Kalos</li>
+  </ul>
+</nav>
+<div id="main">
+  <div id="content">
+    <section id="Johto">
+      <ul>
+        <li class="fuego" title="Pokémon Inicial."><a class="name">Arcanine</a></li>
+        <li class="veneno" title="Su puede capturar al inicio. Crobat se introdujo en esta generación."><a class="name">Crobat</a></li>
+        <li class="agua" title="Agua fuera de batalla. Vence a 3 gimasios (Volador, Bicho e Hielo)."><a class="name">Corsola</a></li>
+        <li class="fantasma" title="Primer pokémon fantasma. Aprende Hipnosis. Vence a 3 tipos de Gimnasio (Fantasma, Normal y Lucha). Util contra el Equipo Rocket."><a class="name">Gengar</a></li>
+        <li class="acero" title="Porque Yasmina tiene uno. Para Excavar."><a class="name">Steelix</a></li>
+        <li class="normal" title="Por movimientos (Garra umbria y Machada) vence a 4 gimasios (Fantasma, Normal, Acero e Hielo)."><a class="name">Ursaring</a></li>
+        <li class="normal" title="Por movimientos (Tajo Umbrio y Joya de Luz), vence a 2 gimasios (Fantasma e Hielo)."><a class="name">Persian</a></li>
+        <!--<li class="normal" title="Por movimiento (Cabezazo Zen), vence a 1 gimasios (Fantasma). Util para recuperar pokemon heridos en caminos largos."><a class="name">Miltank</a></li>-->
+        <li class="agua" title="Se puede capturar en la Cueva Unión (Johto). Para Surf."><a class="name">Lapras</a></li>
+        <li class="roca" title="Pokémon fósil. Para Vuelo."><a class="name">Aerodactyl</a></li>
+        <li class="dragon" title="Es mi pokémon más poderoso, por lo tanto tiene que ser capturado en mi region."><a class="name">Dragonite</a></li>
+      </ul>
+      <ul class="none">
+        <li class="normal" title="Por movimiento 'Rayo hielo', vence a primer gimasio (Volador)."><a class="name">Furret</a></li>
+        <li class="psiquico" title="Pokémon legendario de mi region. Muchos ataques."><a class="name">Lugia</a></li>
+      </ul>
+    </section>
+    <section id="Kanto">
+      <ul>
+        <li class="siniestro" title="Traido desde Johto. Por tipo, vence a 2 tipos de gimnasio (Planta y Psíquico)."><a class="name">Houndoom</a></li>
+        <li class="normal" title="Nostalgia. Aprende Vendaval. Para Vuelo."><a class="name">Pidgeot</a></li>
+        <li class="agua" title="Aprende Psíquico. Vence a 4 tipos de gimnasio en Kanto (Veneno, Roca, Fuego y Tierra). Util contra los Tipo Veneno del Equipo Rocket."><a class="name">Golduck</a></li>
+        <li class="lucha" title="Por tipo, vence al primer Gimnasio Tipo Roca. Util contra el Kangaskan de Giovanni. Vence a los Tipo Normal del Equipo Rocket."><a class="name">Primeape</a></li>
+        <li class="bicho" title="Por tipos, vence a 5 tipos de gimnasio (Roca, Agua, Tierra, Planta y Psíquico)."><a class="name">Parasect</a></li>
+        <li class="veneno" title="Tambien tipo tierra por lo que vence a 4 gimnasios (Electrico, Planta, Veneno y Fuego). Util para atravezar montañas."><a class="name">Nidoking</a></li>
+        <li class="tierra" title="Vence a 4 tipos de gimnacio (Roca, Electrico, Veneno y Fuego)."><a class="name">Sandslash</a></li>
+        <li class="electrico" title="Vence al Pidgeot, Gyarados y Blastoise de Green. Util para ser usado en Mar."><a class="name">Electivire</a></li>
+        <li class="psiquico" title="Por tipo vence al gimacio tipo Veneno. Ademas vence al Nidoking y Nidoqueen del gimacio tipo Tierra."><a class="name">Espeon</a></li>
+        <li class="normal" title="Obtenido en el Casino de Ciudad Azulona. Por su movimiento 'Conversion' se vuelve un comodin de 9 tipos."><a class="name">Porygon-Z</a></li>
+      </ul>
+      <ul class="none">
+        <li class="electrico" title="Vence al segundo gimansio (Agua). Pokémon tierno que vive en casa."><a class="name">Pichu</a></li>
+      </ul>
+    </section>
+    <section id="Hoenn">
+      <ul>
+
+        <li class="agua" title="Nostalgia. Entregado por el Prof. Rowan. Vence a 3 tipos de Gimnasio (Roca, Electrico y Fuego). Para Surf."><a class="name">Swampert</a></li>
+        <li class="agua" title="Vence a 3 tipos de Gimnasio (Roca, Lucha y Fuego)."><a class="name">Wingull</a></li>
+        <li class="psiquico" title="Vence a 3 tipos de Gimnasio (Lucha, Volador y Agua). Aprende Hipnosis y Teletransporte."><a class="name">Gardevoir</a></li>
+        <li class="planta" title="Por tipo, vence a 3 tipo de gimnacio (Roca, Normal y Agua)."><a class="name">Breloom</a></li>
+
+        <li class="acero" title="Vence a los Gimnasios de Electrico, Fuego y Volador. Util para atravesar Montañas"><a class="name">Aggron</a></li>
+        <li class="siniestro" title="Vence a los Gimnasios de Normal y Psiquico."><a class="name">Sableye</a></li>
+
+        <li class="electrico" title="Vence a 2 Tipos de Gimasio (Volador y Agua). Pokemon de compañia."><a class="name">Manectric</a></li>
+        <li class="dragon" title="Unico pokémon con pre-evolución que aprende ataques tipo volador."><a class="name">Altaria</a></li>
+
+        <!--
+        <li class="bicho" title="El pokémon más rapido. Bueno contra los Tipo Siniestro del Equipo Magma y Aqua."><a class="name">Ninjask</a></li>
+        <li class="bicho" title="Habilidad unica. Bueno contra los Tipo Siniestro del Equipo Magma y Aqua."><a class="name">Shedinja</a></li>
+        <li class="roca" title="Vence a 2 Tipos de Gimasio (Fuego y Volador)."><a class="name">Solrock</a></li>
+        <li class="acero" title="Exclusivo para el Solrock del gimnasio tipo Psiquico."><a class="name">Metagross</a></li>
+        -->
+      </ul>
+      <ul class="none">
+        <li class="normal" title="Su pokémon mas grande. Lo descubre en un cuarto secreto en un templo de Regis abandonado. Replasar por Slaking."><a class="name">Regigigas</a></li>
+      </ul>
+    </section>
+    <section id="Sinnoh">
+      <ul>
+        <li class="fuego" title="Entregado por el Prof. Abedul. Aprende Anillo Ígneo"><a class="name">Infernape</a></li>
+        <li class="electrico" title="Vence a Gimnasio Tipo Agua. Por movimientos el Driblim del Gimnacio tipo Fantasma."><a class="name">Luxray</a></li>
+        <li class="agua" title="Solo sirve para 1 gimnasio en Sinnoh (Roca)."><a class="name">Buizel</a></li>
+        <li class="bicho" title="Por tipo vence a 4 gimnasios (Roca, Planta, Acero y Hielo)."><a class="name">Heracross</a></li>
+        <li class="normal" title="Por tipo vence a 2 gimnasios (Planta y Lucha), por movimientos es util con el gimnasio tipo Fantasma."><a class="name">Noctowl</a></li>
+        <li class="electrico" title="Puede tener multiples tipos. Unico en esta region."><a class="name">Rotom</a></li>
+        <li class="dragon" title="Unico tipo dragón en esta region. Cintia tiene uno."><a class="name">Garchomp</a></li>
+        <li class="tierra" title="Unico pokémon para atravezar montañas."><a class="name">Rhyperior</a></li>
+        <li class="planta" title="Unico pokémon util para volar."><a class="name">Tropius</a></li>
+      </ul>
+      <ul class="none">
+        <li class="fuego" title="Lo captura cuando se sale de control."><a class="name">Heatran</a></li>
+      </ul>
+    </section>
+    <section id="Unova">
+      <ul>
+
+        <li class="lucha" title="Por su variedad de ataques vence a 5 gimnasios (Normal, Veneno, Tierra, Volador y Dragón)."><a class="name">Lucario</a></li>
+        <li class="fuego" title=""><a class="name">Darmanitan</a></li>
+        <li class="roca" title="Vence a los Gimnasios de Bicho, Volador. Y por movimientos a Electrico"><a class="name">Gigalith</a></li>
+        <li class="tierra" title=""><a class="name">Krookodile</a></li>
+        <li class="tierra" title="Para Vuelo. Vence al Gimnasio Electrico."><a class="name">Flygon</a></li>
+        <li class="psiquico" title="Vence a los Gimnasios de Veneno. Por movimientos a Tierra, Volador y Agua."><a class="name">Reuniclus</a></li>
+        <li class="agua" title="Vence a los Gimnasios de Tierra y Bicho. Y por movimientos a Volador y Dragón"><a class="name">Swanna</a></li>
+        <li class="normal" title="Vence a los Gimnasios de Tierra y Agua."><a class="name">Sawsbuck</a></li>
+        <li class="electrico" title="Vence a los Gimnasios de Agua y Volador."><a class="name">Eelektross</a></li>
+        <li class="hielo" title="Vence a los Gimnasios de Tierra, Volador y Dragon."><a class="name">Beartic</a></li>
+
+        <!--<li class="siniestro" title="Vence a los Gimnasios de Dragon. Para Vuelo y Surf."><a class="name">Hydreigon</a></li>-->
+      </ul>
+      <ul class="none">
+        <li class="electrico" title=""><a class="name">Joltik</a></li>
+      </ul>
+    </section>
+    <section id="Kalos">
+      <ul>
+        <li class="fuego" title="Vence a los Gimnasios de Bicho, Planta y Hielo."><a class="name">Pyroar</a></li>
+        <li class="bicho" title="Vence a los Gimnasios de Lucha, Planta y Psiquico. Util contra el Equipo Flare (Siniestro y Veneno)."><a class="name">Vivillon</a></li>
+        <li class="fuego" title="Vence a los Gimnasios de Bicho, Lucha y Hielo."><a class="name">Talonflame</a></li>
+        <li class="agua" title="Por movimientos, vence a los Gimnasios de Roca, Hada, Psiquico y Hielo. Para Surf. Te lo dan para Mega-Evolucionar. No puede ser Gyarados porque se tarda en concegir la caña."><a class="name">Blastoise</a></li>
+        <li class="planta" title="Util contra el gimnasio Roca. Por movimientos, vence al Gimnasio tipo Electrico. Para Surf (Surf y Asta drenaje)."><a class="name">Gogoat</a></li>
+        <li class="lucha" title="Vence a los Gimnasios de Roca, Psiquico y Hielo. Util contra los Sinisetros del Equipo Flare"><a class="name">Pangoro</a></li>
+        <li class="acero" title="Vence a los Gimnasios de Roca, Hada, Psiquico y Hielo. Por movimientos, vence al Gimasio de Lucha."><a class="name">Aegislash</a></li>
+        <li class="roca" title="Por movimientos, vence a los Gimnasios de Electrico, Psiquico y Hielo."><a class="name">Tyrantrum</a></li>
+        <li class="tierra" title="Por movimientos, vence a los Gimnasios de Lucha, Electrico y Psiquico."><a class="name">Golurk</a></li>
+        <li class="volador" title="Por movimietos, es util contra los Altos Mandos de Acero, Dragon, Agua y ?."><a class="name">Noivern</a></li>
+      </ul>
+    </section>
+  </div>
+</div>
+</body>
+<script>
+function color(tipo){
+  var tipos=[
+    "acero",
+    "agua",
+    "bicho",
+    "dragon",
+    "electrico",
+    "fantasma",
+    "fuego",
+    "hielo",
+    "lucha",
+    "normal",
+    "planta",
+    "psiquico",
+    "roca",
+    "siniestro",
+    "tierra",
+    "veneno",
+    "volador"
+  ];
+  var colores=[
+    "#696969",
+    "#188BE0",
+    "#A8B820",
+    "#7038F8",
+    "#F8D030",
+    "#705898",
+    "#F08030",
+    "#98D8D8",
+    "#C03028",
+    "#A8A878",
+    "#78C850",
+    "#F85888",
+    "#B8A038",
+    "#705848",
+    "#E0C068",
+    "#A040A0",
+    "#A890F0",
+  ];
+  var contador;
+
+  for(contador=0;contador<(tipos.length);contador++){
+    if(tipo == tipos[contador]){
+      return colores[contador];
+      break;
+    }
+  }
+}
+$(document).ready(function(){
+  var sectionFull = $("section").width() * $("section").size();
+  var marginSection = (parseInt($("section").css("marginLeft")) + parseInt($("section").css("marginRight"))) * $("section").size();
+  var widthMain = sectionFull + marginSection + (20 * $("section").size());
+  $("#content").css("width",widthMain);
+
+  //Contar numero de PKMN
+  var pokNoFight = $(".none li").size();
+  var numPok = $("#main li").size() - pokNoFight;
+  $("h1").append("  [ " + numPok + " ]");
+
+  // Colocar IMG
+  $("#main li, aside li").each(function(){
+    var name = $(this).children(".name").text();
+    var urlImg = "pokemon/200px-" + name + ".png";
+    $(this).append("<img>");
+    $(this).children("img").attr({src:urlImg});
+
+  });
+
+  // Colocar BACKGROUND y Link WKDX
+  $("ul li").each(function(){
+    var tipo = $(this).attr("class");
+    var newColor;
+    newColor = color(tipo);
+    $(this).css({backgroundColor:newColor});
+
+    /*  LINKS */
+    var name = $(this).children("a").text();
+    var link = "http://es.pokemon.wikia.com/wiki/" + name + "?useskin=monobook";
+    $(this).children("a").attr('href',link);
+  });
+
+  //Efecto SLIDE
+  $("nav li").click(function(){
+    var id = "#" + $(this).attr("class");
+    $("#content").animate({"left": -($(id).position().left)}, 600);
+
+    $(this).html("<a>" + $(this).text() + "</a>");
+
+    $("nav li").removeAttr("id");
+    $("nav li a").removeAttr("href");
+
+    var urlWkdx = "http://es.pokemon.wikia.com/wiki/" + $(this).text() + "?useskin=monobook";
+    $(this).children("a").attr("href",urlWkdx);
+    $(this).attr("id","active");
+
+
+  });
+
+  $("section").each(function(){
+    var num = $(this).children("ul").size();
+    if (num >= 2){
+      $(this).children("ul:nth-child(1)").css({width:'730px'});
+    }
+  });
+  /*
+  $("section").click(function(){
+    $("nav li").removeAttr("id");
+    var clase = "." + $(this).attr("id");
+    $(clase).attr("id","active");
+
+    var id = "#" + $(this).attr("id");
+    $("#content").animate({"left": -($(id).position().left)}, 600);
+  });
+        */
+
+  var heightWindowAside = $(window).height() - (60) + "px";
+  $("aside ul").css("height", heightWindowAside);
+  $("header").append("<a id='open'>G</a>");
+  $("h2").before("<a id='close'>W</a>");
+
+  $("#open").click(function(){
+    $("aside").animate({"width":"260px"});
+  });
+
+  $("#close").click(function(){
+    $("aside").animate({"width":"0px"});
+  });
+});
+</script>
+</html>

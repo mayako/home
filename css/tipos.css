@@ -1,0 +1,33 @@
+﻿aside a[class], #list-full a[class]{
+  border-radius: 2px;
+  color:#fff;
+  display:inline-block;
+  font-size:10px;
+  height:20px;
+  letter-spacing: 1px;
+  line-height:20px;
+  margin-right:3px;
+  text-align:center;
+  text-transform: uppercase;
+  text-shadow:0px 0px 1px #fff;
+  width:50px;
+}
+
+.acero:before{content:'Acero';}
+.agua:before{content:'Agua';}
+.bicho:before{content:'Bicho';}
+.dragon:before{content:'Dragon';}
+.electrico:before{content:'Elect.';}
+.fantasma:before{content:'Fant.';}
+.fuego:before{content:'Fuego';}
+.hada:before{content:'Hada';}
+.hielo:before{content:'Hielo';}
+.lucha:before{content:'Lucha';}
+.normal:before{content:'Normal';}
+.planta:before{content:'Planta';}
+.psiquico:before{content:'Psiq.';}
+.roca:before{content:'Roca';}
+.siniestro:before{content:'Sinie.';}
+.tierra:before{content:'Tierra';}
+.veneno:before{content:'Veneno';}
+.volador:before{content:'Volad.';}

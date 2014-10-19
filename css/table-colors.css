@@ -1,0 +1,91 @@
+﻿table#color{
+  border-collapse:collapse;
+  border-style:solid;
+  border-width:1px;
+}
+table#color tr{border-bottom-style:solid;border-bottom-width:1px;}
+/*table#color tr:hover td{background-color:#F3F3F3;}   */
+table#color th, table#color th a{
+  color:#fff;
+  padding:5px 5px;
+}
+table#color td{
+  font-weight:normal;
+  height:50px;
+  /*min-width:100px;*/
+  padding:5px;
+  -webkit-transition:all .2s linear;
+}
+/*table#color td:nth-child(1){text-align:center;min-width:185px;}*/
+
+.negro, .negro tr, li{border-color:#000;}
+.negro th{background-color:#000;}
+.negro a{color:#000;}
+
+.rojo, .rojo tr, li{border-color:#D24726;}
+.rojo th{background-color:#D24726;}
+.rojo a{color:#D24726;}
+
+.rosa, .rosa tr{border-color:#DC4FAD;}
+.rosa th{background-color:#DC4FAD;}
+.rosa a{color:#DC4FAD;}
+
+.guinda, .guinda tr{border-color:#AC193D;}
+.guinda th{background-color:#AC193D;}
+.guinda a{color:#AC193D;}
+
+.naranja, .naranja tr{border-color:#FF8F32;}
+.naranja th{background-color:#FF8F32;}
+.naranja a{color:#FF8F32;}
+
+.verdeclaro, .verdeclaro tr{border-color:#82BA00;}
+.verdeclaro th{background-color:#82BA00;}
+.verdeclaro a{color:#82BA00;}
+
+.verde, .verde tr{border-color:#008A17;}
+.verde th{background-color:#008A17;}
+.verde a{color:#008A17;}
+
+.aqua, .aqua tr{border-color:#03B3B2;}
+.aqua th{background-color:#03B3B2;}
+.aqua a{color:#03B3B2;}
+
+.verdebandera, .verdebandera tr{border-color:#008299;}
+.verdebandera th{background-color:#008299;}
+.verdebandera a{color:#008299;}
+
+.cielo, .cielo tr{border-color:#5DB2FF;}
+.cielo th{background-color:#5DB2FF;}
+.cielo a{color:#5DB2FF;}
+
+.azul, .azul tr{border-color:#0072C6;}
+.azul th{background-color:#0072C6;}
+.azul a{color:#0072C6;}
+
+.azulrey, .azulrey tr{border-color:#4617B4;}
+.azulrey th{background-color:#4617B4;}
+.azulrey a{color:#4617B4;}
+
+.morado, .morado tr{border-color:#8C0095;}
+.morado th{background-color:#8C0095;}
+.morado a{color:#8C0095;}
+
+.amarillo, .amarillo tr{border-color:#FFC000;}
+.amarillo th{background-color:#FFC000;}
+.amarillo a{color:#FFC000;}
+
+/*
+#DC4FAD   rosa
+#AC193D  guinda
+#D24726   rojo
+#FF8F32   naranja
+#82BA00   verde c
+#008A17   verde
+#03B3B2  verde aq
+#008299   verde ba
+#5DB2FF   cielo
+#0072C6    azul
+#4617B4   azul rey
+#8C0095  morado
+#FFC000 amarillo
+*/
