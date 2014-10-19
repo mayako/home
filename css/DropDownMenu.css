@@ -1,4 +1,4 @@
-﻿/*
+/*
 #dropdown-menu h1:after{
   border:solid 0px blue;
   content:'V';
@@ -23,7 +23,7 @@
 }
 
 #dropdown-links{
-  background-color: #DA4747;
+  background-color: blue; /* #DA4747 */
   display: none;
   left:0px;
   position: absolute;
