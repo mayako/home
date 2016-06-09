@@ -23,7 +23,7 @@
 }
 
 #dropdown-links{
-  background-color: #DA4747; 
+  background-color: #DA4747;
   display: none;
   left:0px;
   position: absolute;
@@ -42,7 +42,7 @@
 }
 #dropdown-links .section{
   float: left;
-  height:300px;
+  height:350px;
   margin: 0px 3%;
 }
 #dropdown-links .section:nth-child(1){ width: 25%;}
