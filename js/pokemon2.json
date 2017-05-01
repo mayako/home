@@ -1,4 +1,4 @@
-﻿var pkmn = [
+[
     {"numero":"005","nombre":"Charmeleon",
       "habilidad": "Mar llamas",
       "tipos":[
@@ -43,7 +43,7 @@
         {"tipo":"fuego","nombre":"Envite ígneo"},
         {"tipo":"normal","nombre":"Cuchillada"},
         {"tipo":"normal","nombre":"Rugido"},
-        {"tipo":"volador","nombre":"Vuelo"},
+        {"tipo":"volador","nombre":"Vuelo"}
       ]
     },
     {"numero":"007","nombre":"Squirtle",
@@ -762,7 +762,7 @@
         {"tipo":"normal","nombre":"Giro rápido"},
         {"tipo":"normal","nombre":"Recuperación"},
         {"tipo":"psiquico","nombre":"Psíquico"},
-        {"tipo":"roca","nombre":"Joya de luz"},
+        {"tipo":"roca","nombre":"Joya de luz"}
       ]
     },
     {"numero":"128","nombre":"Tauros",
@@ -979,7 +979,7 @@
      "habilidad":"Foco interno",
      "tipos":[
        {"tipo":"dragon"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"primera",
      "regiones":[
@@ -1012,7 +1012,7 @@
     {"numero":"150","nombre":"Mewtwo",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"primera",
      "regiones":[
@@ -1032,13 +1032,13 @@
         {"tipo":"psiquico","nombre":"Gran ojo"},
         {"tipo":"psiquico","nombre":"Onda mental"},
         {"tipo":"psiquico","nombre":"Premonición"},
-        {"tipo":"psiquico","nombre":"Psíquico"},
+        {"tipo":"psiquico","nombre":"Psíquico"}
       ]
     },
     {"numero":"156","nombre":"Quilava",
      "habilidad":"Mar llamas",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1060,7 +1060,7 @@
     {"numero":"160","nombre":"Feraligatr",
      "habilidad":"Torrente",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1080,7 +1080,7 @@
     {"numero":"162","nombre":"Furret",
      "habilidad":"Fuga",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1101,7 +1101,7 @@
      "habilidad":"Insomnio",
      "tipos":[
        {"tipo":"normal"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1128,7 +1128,7 @@
      "habilidad":"Enjambre",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"veneno"},
+       {"tipo":"veneno"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1150,7 +1150,7 @@
      "habilidad":"Foco interno",
      "tipos":[
        {"tipo":"veneno"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1169,10 +1169,38 @@
         {"tipo":"volador","nombre":"Aire afilado"}
       ]
     },
+    {"numero":"171","nombre":"Lanturn",
+     "habilidad":"Absorber electricidad",
+     "tipos":[
+       {"tipo":"agua"},
+       {"tipo":"electrico"}
+     ],
+     "generacion":"segunda",
+     "regiones":[
+       {"region":"johto"},
+       {"region":"hoenn"},
+       {"region":"kalos"}
+     ],
+      "movimientos":[
+        {"tipo":"agua","nombre":"Escaldar"},
+        {"tipo":"agua","nombre":"Hidrobomba"},
+        {"tipo":"agua","nombre":"Hidropulso"},
+        {"tipo":"agua","nombre":"Rayo burbuja"},
+        {"tipo":"agua","nombre":"Salmuera"},
+        {"tipo":"bicho","nombre":"Doble rayo"},
+        {"tipo":"electrico","nombre":"Cortina plasma"},
+        {"tipo":"electrico","nombre":"Chispazo"},
+        {"tipo":"electrico","nombre":"Rayo"},
+        {"tipo":"electrico","nombre":"Rayo carga"},
+        {"tipo":"hielo","nombre":"Rayo hielo"},
+        {"tipo":"normal","nombre":"Escupir"},
+        {"tipo":"normal","nombre":"Tragar"}
+      ]
+    },
     {"numero":"172","nombre":"Pichu",
      "habilidad":"Electricidad estática",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1194,7 +1222,7 @@
      "habilidad":"Sincronía",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1216,7 +1244,7 @@
     {"numero":"180","nombre":"Flaaffy",
      "habilidad":"Electricidad estática",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1238,7 +1266,7 @@
     {"numero":"181","nombre":"Ampharos",
      "habilidad":"Electricidad estática",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1284,7 +1312,7 @@
     {"numero":"185","nombre":"Sudowoodo",
      "habilidad":"Cabeza roca",
      "tipos":[
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1305,7 +1333,7 @@
     {"numero":"186","nombre":"Politoed",
      "habilidad":"Absorber agua",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1316,8 +1344,8 @@
         {"tipo":"agua","nombre":"Escaldar"},
         {"tipo":"agua","nombre":"Hidropulso"},
         {"tipo":"agua","nombre":"Rayo burbuja"},
-        {"tipo":"hielo","nombre":"Puño hielo"},
         {"tipo":"lucha","nombre":"Demolición"},
+        {"tipo":"lucha","nombre":"Puño incremento"},
         {"tipo":"normal","nombre":"Canto mortal"},
         {"tipo":"normal","nombre":"Vozarrón"},
         {"tipo":"psiquico","nombre":"Psíquico"},
@@ -1329,7 +1357,7 @@
      "habilidad":"Absorber agua",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1350,7 +1378,7 @@
     {"numero":"196","nombre":"Espeon",
      "habilidad":"Sincronía",
      "tipos":[
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1372,7 +1400,7 @@
     {"numero":"197","nombre":"Umbreon",
      "habilidad":"Sincronía",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1392,7 +1420,7 @@
      "habilidad":"Madrugar",
      "tipos":[
        {"tipo":"normal"},
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1411,14 +1439,14 @@
         {"tipo":"psiquico","nombre":"Cambia fuerza"},
         {"tipo":"psiquico","nombre":"Psíquico"},
         {"tipo":"siniestro","nombre":"Triturar"},
-        {"tipo":"tierra","nombre":"Terremoto"},
+        {"tipo":"tierra","nombre":"Terremoto"}
       ]
     },
     {"numero":"208","nombre":"Steelix",
      "habilidad":"Cabeza roca",
      "tipos":[
        {"tipo":"acero"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1445,7 +1473,7 @@
     {"numero":"210","nombre":"Granbull",
      "habilidad":"Cabeza roca",
      "tipos":[
-       {"tipo":"hada"},
+       {"tipo":"hada"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1473,7 +1501,7 @@
      "habilidad":"Experto",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1495,7 +1523,7 @@
      "habilidad":"Agallas",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"lucha"},
+       {"tipo":"lucha"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1518,7 +1546,7 @@
     {"numero":"217","nombre":"Ursaring",
      "habilidad":"Agallas",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1536,14 +1564,14 @@
         {"tipo":"lucha","nombre":"Machada"},
         {"tipo":"lucha","nombre":"Onda certera"},
         {"tipo":"lucha","nombre":"Puño incremento"},
-        {"tipo":"psiquico","nombre":"Descanso"},
+        {"tipo":"psiquico","nombre":"Descanso"}
       ]
     },
     {"numero":"222","nombre":"Corsola",
      "habilidad":"Cura natural",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1558,14 +1586,14 @@
         {"tipo":"normal","nombre":"Recuperación"},
         {"tipo":"psiquico","nombre":"Manto espejo"},
         {"tipo":"roca","nombre":"Joya de luz"},
-        {"tipo":"tierra","nombre":"Tierra viva"},
+        {"tipo":"tierra","nombre":"Tierra viva"}
       ]
     },
     {"numero":"226","nombre":"Mantine",
      "habilidad":"Absorber agua",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1586,11 +1614,37 @@
         {"tipo":"volador","nombre":"Bote"}
       ]
     },
+    {"numero":"227","nombre":"Skarmory",
+     "habilidad":"Vista lince",
+     "tipos":[
+       {"tipo":"acero"},
+       {"tipo":"volador"}
+     ],
+     "generacion":"segunda",
+     "regiones":[
+       {"region":"johto"},
+       {"region":"hoenn"},
+       {"region":"unova"},
+       {"region":"kalos"}
+     ],
+      "movimientos":[
+        {"tipo":"acero","nombre":"Ala de acero"},
+        {"tipo":"acero","nombre":"Foco resplandor"},
+        {"tipo":"bicho","nombre":"Tijera X"},
+        {"tipo":"normal","nombre":"Cuchillada"},
+        {"tipo":"siniestro","nombre":"Pulso umbrío"},
+        {"tipo":"siniestro","nombre":"Tajo umbrío"},
+        {"tipo":"volador","nombre":"Aire afilado"},
+        {"tipo":"volador","nombre":"Golpe aéreo"},
+        {"tipo":"volador","nombre":"Tajo aéreo"},
+        {"tipo":"volador","nombre":"Vuelo"}
+      ]
+    },
     {"numero":"229","nombre":"Houndoom",
      "habilidad":"Absorber fuego",
      "tipos":[
        {"tipo":"siniestro"},
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1608,13 +1662,13 @@
         {"tipo":"siniestro","nombre":"Juego sucio"},
         {"tipo":"siniestro","nombre":"Pulso umbrío"},
         {"tipo":"siniestro","nombre":"Triturar"},
-        {"tipo":"veneno","nombre":"Polución"},
+        {"tipo":"veneno","nombre":"Polución"}
       ]
     },
     {"numero":"232","nombre":"Donphan",
      "habilidad":"Robustez",
      "tipos":[
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1636,7 +1690,7 @@
     {"numero":"241","nombre":"Miltank",
      "habilidad":"Intrépido",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1657,11 +1711,11 @@
     {"numero":"244","nombre":"Entei",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
+       {"region":"johto"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -1679,7 +1733,7 @@
     {"numero":"245","nombre":"Suicune",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1702,7 +1756,7 @@
      "habilidad":"Presión",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
@@ -1756,14 +1810,14 @@
         {"tipo":"planta","nombre":"Hoja aguda"},
         {"tipo":"planta","nombre":"Rayo solar"},
         {"tipo":"siniestro","nombre":"Tajo umbrío"},
-        {"tipo":"volador","nombre":"Golpe aéreo"},
+        {"tipo":"volador","nombre":"Golpe aéreo"}
       ]
     },
     {"numero":"256","nombre":"Combusken",
      "habilidad":"Mar llamas",
      "tipos":[
        {"tipo":"fuego"},
-       {"tipo":"lucha"},
+       {"tipo":"lucha"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -1785,7 +1839,7 @@
      "habilidad":"Torrente",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -1825,7 +1879,7 @@
      "habilidad":"Enjambre",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -1842,11 +1896,32 @@
         {"tipo":"volador","nombre":"Golpe aéreo"}
       ]
     },
+    {"numero":"274","nombre":"Nuzleaf",
+      "habilidad": "Madrugar",
+      "tipos":[
+        {"tipo":"planta"},
+        {"tipo":"siniestro"}
+      ],
+      "generacion":"tercera",
+      "regiones":[
+        {"region":"hoenn"}
+      ],
+      "movimientos":[
+        {"tipo":"lucha","nombre":"Demolición"},
+        {"tipo":"normal","nombre":"Viento cortante"},
+        {"tipo":"planta","nombre":"Energibola"},
+        {"tipo":"planta","nombre":"Hoja afilada"},
+        {"tipo":"psiquico","nombre":"Descanso"},
+        {"tipo":"psiquico","nombre":"Paranormal"},
+        {"tipo":"siniestro","nombre":"Pulso umbrío"},
+        {"tipo":"tierra","nombre":"Excavar"}
+      ]
+    },
     {"numero":"278","nombre":"Wingull",
      "habilidad":"Vista lince",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -1869,7 +1944,7 @@
      "habilidad":"Vista lince",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -1896,7 +1971,7 @@
      "habilidad":"Rastro ",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"hada"},
+       {"tipo":"hada"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -1974,7 +2049,7 @@
      "habilidad":"Impulso",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -1994,7 +2069,7 @@
      "habilidad":"Superguarda",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"fantasma"},
+       {"tipo":"fantasma"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2015,7 +2090,7 @@
     {"numero":"295","nombre":"Exploud",
      "habilidad":"Insonorizar",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2098,7 +2173,7 @@
     {"numero":"309","nombre":"Manectric",
      "habilidad":"Electricidad estática",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2121,7 +2196,7 @@
      "habilidad":"Piel tosca",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2142,7 +2217,7 @@
     {"numero":"321","nombre":"Wailord",
      "habilidad":"Velo agua",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2167,7 +2242,7 @@
      "habilidad":"Roca sólida",
      "tipos":[
        {"tipo":"fuego"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2191,7 +2266,7 @@
     {"numero":"324","nombre":"Torkoal",
      "habilidad":"Humo blanco",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2218,7 +2293,7 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"dragon"},
+       {"tipo":"dragon"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2239,11 +2314,33 @@
         {"tipo":"volador","nombre":"Vuelo"}
       ]
     },
+    {"numero":"332","nombre":"Cacturne",
+     "habilidad":"Velo arena",
+     "tipos":[
+       {"tipo":"planta"},
+       {"tipo":"siniestro"}
+     ],
+     "generacion":"tercera",
+     "regiones":[
+       {"region":"hoenn"}
+     ],
+      "movimientos":[
+        {"tipo":"lucha","nombre":"Demolición"},
+        {"tipo":"lucha","nombre":"Puño incremento"},
+        {"tipo":"planta","nombre":"Brazo pincho"},
+        {"tipo":"planta","nombre":"Energibola"},
+        {"tipo":"planta","nombre":"Esporagodón"},
+        {"tipo":"planta","nombre":"Gigadrenado"},
+        {"tipo":"siniestro","nombre":"Pulso umbrío"},
+        {"tipo":"tierra","nombre":"Púas"},
+        {"tipo":"veneno","nombre":"Puya nociva"}
+      ]
+    },
     {"numero":"334","nombre":"Altaria",
      "habilidad":"Cura natural",
      "tipos":[
        {"tipo":"dragon"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2267,7 +2364,7 @@
     {"numero":"335","nombre":"Zangoose",
      "habilidad":"Inmunidad",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2288,7 +2385,7 @@
     {"numero":"336","nombre":"Seviper",
      "habilidad":"Mudar",
      "tipos":[
-       {"tipo":"veneno"},
+       {"tipo":"veneno"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2316,7 +2413,7 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"roca"},
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2342,7 +2439,7 @@
      "habilidad":"Caparazón",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2366,7 +2463,7 @@
      "habilidad":"Ventosas",
      "tipos":[
        {"tipo":"roca"},
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2383,7 +2480,7 @@
     {"numero":"350","nombre":"Milotic",
      "habilidad":"Escama especial",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2405,7 +2502,7 @@
      "habilidad":"Clorofila",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2431,7 +2528,7 @@
     {"numero":"359","nombre":"Absol",
      "habilidad":"Afortunado",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2459,7 +2556,7 @@
      "habilidad":"Gélido",
      "tipos":[
        {"tipo":"hielo"},
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2482,7 +2579,7 @@
      "habilidad":"Intimidación",
      "tipos":[
        {"tipo":"dragon"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2506,7 +2603,7 @@
      "habilidad":"Cuerpo puro",
      "tipos":[
        {"tipo":"acero"},
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2528,7 +2625,7 @@
     {"numero":"379","nombre":"Registeel",
      "habilidad":"Cuerpo puro",
      "tipos":[
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2549,7 +2646,7 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"dragon"},
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2570,7 +2667,7 @@
     {"numero":"386","nombre":"Deoxys",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"tercera",
      "regiones":[
@@ -2595,7 +2692,7 @@
      "habilidad":"Espesura",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -2778,6 +2875,28 @@
         {"tipo":"tierra","nombre":"Excavar"}
       ]
     },
+    {"numero":"423","nombre":"Gastrodon",
+     "habilidad":"Colector",
+     "tipos":[
+       {"tipo":"agua"},
+       {"tipo":"tierra"}
+     ],
+     "generacion":"cuarta",
+     "regiones":[
+       {"region":"sinnoh"}
+     ],
+      "movimientos":[
+        {"tipo":"agua","nombre":"Agua lodosa"},
+        {"tipo":"agua","nombre":"Hidropulso"},
+        {"tipo":"agua","nombre":"Salmuera"},
+        {"tipo":"hielo","nombre":"Rayo hielo"},
+        {"tipo":"normal","nombre":"Recuperación"},
+        {"tipo":"normal","nombre":"Golpe cuerpo"},
+        {"tipo":"tierra","nombre":"Terremoto"},
+        {"tipo":"veneno","nombre":"Bomba lodo"},
+        {"tipo":"veneno","nombre":"Onda tóxica"}
+      ]
+    },
     {"numero":"426","nombre":"Drifblim",
      "habilidad":"Resquicio",
      "tipos":[
@@ -2860,6 +2979,31 @@
         {"tipo":"normal","nombre":"Cuchillada"},
         {"tipo":"normal","nombre":"Eco voz"},
         {"tipo":"psiquico","nombre":"Hipnosis"}
+      ]
+    },
+    {"numero":"435","nombre":"Skuntank",
+     "habilidad":"Hedor",
+     "tipos":[
+       {"tipo":"veneno"},
+       {"tipo":"siniestro"}
+     ],
+     "generacion":"cuarta",
+     "regiones":[
+       {"region":"sinnoh"},
+       {"region":"kalos"}
+     ],
+      "movimientos":[
+        {"tipo":"fuego","nombre":"Lanzallamas"},
+        {"tipo":"fuego","nombre":"Llamarada"},
+        {"tipo":"normal","nombre":"Cuchillada"},
+        {"tipo":"normal","nombre":"Explosión"},
+        {"tipo":"siniestro","nombre":"Pulso umbrío"},
+        {"tipo":"siniestro","nombre":"Tajo umbrío"},
+        {"tipo":"tierra","nombre":"Excavar"},
+        {"tipo":"veneno","nombre":"Bomba lodo"},
+        {"tipo":"veneno","nombre":"Cargatóxica"},
+        {"tipo":"veneno","nombre":"Puya nociva"},
+        {"tipo":"veneno","nombre":"Toxico"}
       ]
     },
     {"numero":"436","nombre":"Bronzor",
@@ -3010,7 +3154,7 @@
      "habilidad":"Roca sólida",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3038,7 +3182,7 @@
      "habilidad":"Nevada",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"hielo"},
+       {"tipo":"hielo"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3061,7 +3205,7 @@
     {"numero":"465","nombre":"Tangrowth",
      "habilidad":"Defensa hoja",
      "tipos":[
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3086,7 +3230,7 @@
     {"numero":"466","nombre":"Electivire",
      "habilidad":"Electromotor",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3108,7 +3252,7 @@
     {"numero":"467","nombre":"Magmortar",
      "habilidad":"Cuerpo llama",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3129,7 +3273,7 @@
      "habilidad":"Entusiasmo",
      "tipos":[
        {"tipo":"hada"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3148,13 +3292,13 @@
         {"tipo":"normal","nombre":"Velocidad extrema"},
         {"tipo":"psiquico","nombre":"Psíquico"},
         {"tipo":"volador","nombre":"Ataque aéreo"},
-        {"tipo":"volador","nombre":"Tajo aéreo"},
+        {"tipo":"volador","nombre":"Tajo aéreo"}
       ]
     },
     {"numero":"471","nombre":"Glaceon",
      "habilidad":"Manto níveo",
      "tipos":[
-       {"tipo":"hielo"},
+       {"tipo":"hielo"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3176,7 +3320,7 @@
      "habilidad":"Corte fuerte",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3200,7 +3344,7 @@
     {"numero":"474","nombre":"Porygon-Z",
      "habilidad":"Adaptable",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3232,7 +3376,7 @@
     {"numero":"477","nombre":"Dusknoir",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"fantasma"},
+       {"tipo":"fantasma"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3252,7 +3396,7 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"electrico"},
-       {"tipo":"fantasma"},
+       {"tipo":"fantasma"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3277,7 +3421,7 @@
      "habilidad":"Presión",
      "tipos":[
        {"tipo":"acero"},
-       {"tipo":"dragon"},
+       {"tipo":"dragon"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3299,7 +3443,7 @@
      "habilidad":"Absorber fuego",
      "tipos":[
        {"tipo":"fuego"},
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3327,7 +3471,7 @@
     {"numero":"486","nombre":"Regigigas",
      "habilidad":"Inicio lento",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3353,7 +3497,7 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"fantasma"},
-       {"tipo":"dragon"},
+       {"tipo":"dragon"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3372,7 +3516,7 @@
     {"numero":"491","nombre":"Darkrai",
      "habilidad":"Mal sueño",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"cuarta",
      "regiones":[
@@ -3390,7 +3534,7 @@
      "habilidad":"Tinovictoria",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3407,11 +3551,31 @@
         {"tipo":"psiquico","nombre":"Psíquico"}
       ]
     },
+    {"numero":"497","nombre":"Serperior",
+     "habilidad":"Espesura",
+     "tipos":[
+       {"tipo":"planta"}
+     ],
+     "generacion":"quinta",
+     "regiones":[
+       {"region":"unova"}
+     ],
+      "movimientos":[
+        {"tipo":"dragon","nombre":"Cola dragón"},
+        {"tipo":"normal","nombre":"Estrujón"},
+        {"tipo":"planta","nombre":"Energibola"},
+        {"tipo":"planta","nombre":"Gigadrenado"},
+        {"tipo":"planta","nombre":"Hoja aguda"},
+        {"tipo":"planta","nombre":"Lluevehojas"},
+        {"tipo":"planta","nombre":"Rayo solar"},
+        {"tipo":"volador","nombre":"Golpe aéreo"}
+      ]
+    },
     {"numero":"500","nombre":"Emboar",
      "habilidad":"Mar llamas",
      "tipos":[
        {"tipo":"fuego"},
-       {"tipo":"lucha"},
+       {"tipo":"lucha"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3432,7 +3596,7 @@
     {"numero":"506","nombre":"Lillipup",
      "habilidad":"Recogida",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3452,7 +3616,7 @@
     {"numero":"508","nombre":"Stoutland",
      "habilidad":"Intimidación",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3476,7 +3640,7 @@
     {"numero":"509","nombre":"Purrloin",
      "habilidad":"Flexibilidad",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3498,7 +3662,7 @@
     {"numero":"512","nombre":"Simisage",
      "habilidad":"Gula",
      "tipos":[
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3523,7 +3687,7 @@
     {"numero":"514","nombre":"Simisear",
      "habilidad":"Gula",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3549,7 +3713,7 @@
     {"numero":"516","nombre":"Simipour",
      "habilidad":"Gula",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3573,7 +3737,7 @@
     {"numero":"523","nombre":"Zebstrika",
      "habilidad":"Pararrayos",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3589,7 +3753,7 @@
     {"numero":"526","nombre":"Gigalith",
      "habilidad":"Robustez",
      "tipos":[
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3611,7 +3775,7 @@
      "habilidad":"Ignorante",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3630,7 +3794,7 @@
      "habilidad":"Poder arena",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3649,7 +3813,7 @@
      "habilidad":"Toque tóxico",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3672,7 +3836,7 @@
      "habilidad":"Punto tóxico",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"veneno"},
+       {"tipo":"veneno"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3711,7 +3875,7 @@
     {"numero":"549","nombre":"Lilligant",
      "habilidad":"Clorofila",
      "tipos":[
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3733,7 +3897,7 @@
      "habilidad":"Autoestima",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3757,7 +3921,7 @@
     {"numero":"555","nombre":"Darmanitan",
      "habilidad":"Potencia bruta",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3782,7 +3946,7 @@
      "habilidad":"Caparazón",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3803,7 +3967,7 @@
     {"numero":"563","nombre":"Cofagrigus",
      "habilidad":"Momia",
      "tipos":[
-       {"tipo":"fantasma"},
+       {"tipo":"fantasma"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3822,7 +3986,7 @@
     {"numero":"571","nombre":"Zoroark",
      "habilidad":"Ilusión",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3841,7 +4005,7 @@
     {"numero":"579","nombre":"Reuniclus",
      "habilidad":"Muro mágico",
      "tipos":[
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3864,7 +4028,7 @@
      "habilidad":"Vista lince",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3888,7 +4052,7 @@
      "habilidad":"Herbívoro",
      "tipos":[
        {"tipo":"normal"},
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3910,7 +4074,7 @@
      "habilidad":"Ojocompuesto",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3935,7 +4099,7 @@
      "habilidad":"Punta acero",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3955,7 +4119,7 @@
     {"numero":"600","nombre":"Klang",
      "habilidad":"Más",
      "tipos":[
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -3972,7 +4136,7 @@
     {"numero":"603","nombre":"Eelektrik",
      "habilidad":"Levitación",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"quinta",
      "regiones":[
@@ -4596,7 +4760,7 @@
         {"tipo":"lucha","nombre":"Esfera Aural"},
         {"tipo":"normal","nombre":"Hiperrayo"},
         {"tipo":"siniestro","nombre":"Pulso Umbrío"},
-        {"tipo":"veneno","nombre":"Onda Tóxica"},
+        {"tipo":"veneno","nombre":"Onda Tóxica"}
       ]
     },
     {"numero":"697","nombre":"Tyrantrum",
@@ -4714,4 +4878,4 @@
         {"tipo":"volador","nombre":"Vuelo"}
       ]
     }
-];
+]
