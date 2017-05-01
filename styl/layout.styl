@@ -1,0 +1,104 @@
+nav, #main, aside
+  display: inline-block
+
+nav
+  bottom: 0px
+  left: 0px
+  position: absolute
+  top: 0px
+  width: 160px
+
+  ul
+    li, h4
+      padding: 0px 20px
+
+#main
+  bottom: 0px
+  left: 170px
+  padding: 25px 40px
+  position: absolute
+  top: 0px
+  width: 78%
+
+
+aside
+  bottom: 0px
+  position: absolute
+  right: 0px
+  top: 0px
+  z-index: 90
+
+#search-box
+  position: absolute
+  left: 350px
+  top: 45px
+
+#compare
+  position:  absolute
+  left:  650px
+  top:  45px
+
+
+#idPhoto
+  line-height: 50px
+  padding: 0px 0px
+  position: absolute
+  right: 60px
+  top: 30px
+
+  #imgId
+    border-radius: 50px
+    height: 50px
+    overflow: hidden
+    position: absolute
+    right: 120px
+    width: 50px
+
+    img
+      position: absolute
+      right: -40px
+      top: -10px
+      width: 100px
+
+
+@media only screen and (max-width: 1024px)
+  #idPhoto
+    #trainer
+      display:  none
+    #imgId
+      right:  20px
+
+
+@media only screen and (max-width: 900px)
+  #idPhoto
+    display:  none
+
+#content
+  margin-top: 30px
+
+#content-top
+  position: relative
+
+  h3
+    display: inline-block
+
+  #count
+    position: absolute
+    right: 10px
+    top: 5px
+
+#list
+  bottom: 25px
+  left: 40px
+  overflow-y: scroll
+  overflow-x: hidden
+  position: absolute
+  right: 40px
+  top: 160px
+
+
+#list-full li
+  cursor: pointer
+  display: block
+  padding: 0px 10px
+  position: relative

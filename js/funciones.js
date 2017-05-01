@@ -58,7 +58,7 @@ $(document).ready(function(){
 
       $(".selected").each(function(index, el) {
         pkmnSelected[index] = $(this).children('.name').text();
-      }); 
+      });
 
       var url = "http://pikimal.com/pokemon/";
 
@@ -237,7 +237,7 @@ function selecPkmn(name){
       var mov_list = $('#content-mov').find('ul');
       mov_list.html(''); // Limpia la lista
       $.each(list[index].movimientos, function(index_sub, val) {
-        
+
         mov_list.append(
           '<li>' +
           '<a href="' + urlWkdx(list[index].movimientos[index_sub].tipo) + '" class="' + list[index].movimientos[index_sub].tipo +'"></a>' +
