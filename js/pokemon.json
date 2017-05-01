@@ -1,4 +1,4 @@
-﻿var list = [
+[
     {"numero":"005","nombre":"Charmeleon",
       "habilidad": "Mar llamas",
       "tipos":[
@@ -6,9 +6,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -29,9 +29,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -43,7 +43,7 @@
         {"tipo":"fuego","nombre":"Envite ígneo"},
         {"tipo":"normal","nombre":"Cuchillada"},
         {"tipo":"normal","nombre":"Rugido"},
-        {"tipo":"volador","nombre":"Vuelo"},
+        {"tipo":"volador","nombre":"Vuelo"}
       ]
     },
     {"numero":"007","nombre":"Squirtle",
@@ -53,9 +53,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -75,9 +75,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -101,9 +101,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -122,9 +122,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -147,11 +147,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"sinnoh"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -173,11 +173,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"sinnoh"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -198,11 +198,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"unova"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"unova"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -223,9 +223,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidropulso"},
@@ -243,9 +243,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"agua","nombre":"Surf"},
@@ -269,10 +269,10 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"unova"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"unova"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -294,11 +294,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"unova"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"unova"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -327,8 +327,8 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"}
       ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Tijera X"},
@@ -354,8 +354,8 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"}
       ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Doble rayo"},
@@ -380,8 +380,8 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -406,12 +406,12 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"sinnoh"},
-        {"region":"unova"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"sinnoh"},
+        {"nombre":"unova"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"agua","nombre":"Acua cola"},
@@ -431,8 +431,8 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"}
       ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Golpe trueno"},
@@ -455,9 +455,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"unova"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"unova"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -485,9 +485,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"agua","nombre":"Escaldar"},
@@ -510,11 +510,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"sinnoh"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"sinnoh"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Bola sombra"},
@@ -536,11 +536,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"sinnoh"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"sinnoh"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cuerpo pesado"},
@@ -565,9 +565,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"sinnoh"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"sinnoh"}
       ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Megacuerno"},
@@ -587,9 +587,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -611,12 +611,12 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"sinnoh"},
-        {"region":"unova"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"sinnoh"},
+        {"nombre":"unova"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Bomba imán"},
@@ -640,9 +640,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -662,10 +662,10 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"unova"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"unova"}
       ],
       "movimientos":[
         {"tipo":"hielo","nombre":"Puño hielo"},
@@ -688,10 +688,10 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"sinnoh"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"sinnoh"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Bola sombra"},
@@ -717,9 +717,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -745,11 +745,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"unova"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"unova"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -762,7 +762,7 @@
         {"tipo":"normal","nombre":"Giro rápido"},
         {"tipo":"normal","nombre":"Recuperación"},
         {"tipo":"psiquico","nombre":"Psíquico"},
-        {"tipo":"roca","nombre":"Joya de luz"},
+        {"tipo":"roca","nombre":"Joya de luz"}
       ]
     },
     {"numero":"128","nombre":"Tauros",
@@ -772,9 +772,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -797,11 +797,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"hoenn"},
-        {"region":"sinnoh"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"hoenn"},
+        {"nombre":"sinnoh"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"agua","nombre":"Acua cola"},
@@ -827,10 +827,10 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"unova"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"unova"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"agua","nombre":"Danza lluvia"},
@@ -854,11 +854,11 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"sinnoh"},
-        {"region":"unova"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"sinnoh"},
+        {"nombre":"unova"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -880,9 +880,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -905,10 +905,10 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-        {"region":"sinnoh"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+        {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cuerpopesado"},
@@ -934,9 +934,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -959,9 +959,9 @@
       ],
       "generacion":"primera",
       "regiones":[
-        {"region":"kanto"},
-        {"region":"johto"},
-       {"region":"kalos"}
+        {"nombre":"kanto"},
+        {"nombre":"johto"},
+       {"nombre":"kalos"}
       ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -979,13 +979,13 @@
      "habilidad":"Foco interno",
      "tipos":[
        {"tipo":"dragon"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"primera",
      "regiones":[
-       {"region":"kanto"},
-       {"region":"johto"},
-       {"region":"kalos"}
+       {"nombre":"kanto"},
+       {"nombre":"johto"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Acua cola"},
@@ -1012,13 +1012,13 @@
     {"numero":"150","nombre":"Mewtwo",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"primera",
      "regiones":[
-       {"region":"kanto"},
-       {"region":"johto"},
-       {"region":"kalos"}
+       {"nombre":"kanto"},
+       {"nombre":"johto"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidropulso"},
@@ -1032,17 +1032,17 @@
         {"tipo":"psiquico","nombre":"Gran ojo"},
         {"tipo":"psiquico","nombre":"Onda mental"},
         {"tipo":"psiquico","nombre":"Premonición"},
-        {"tipo":"psiquico","nombre":"Psíquico"},
+        {"tipo":"psiquico","nombre":"Psíquico"}
       ]
     },
     {"numero":"156","nombre":"Quilava",
      "habilidad":"Mar llamas",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"}
+       {"nombre":"johto"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Voltio cruel"},
@@ -1060,11 +1060,11 @@
     {"numero":"160","nombre":"Feraligatr",
      "habilidad":"Torrente",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"}
+       {"nombre":"johto"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidrobomba"},
@@ -1080,12 +1080,12 @@
     {"numero":"162","nombre":"Furret",
      "habilidad":"Fuga",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Surf"},
@@ -1101,13 +1101,13 @@
      "habilidad":"Insomnio",
      "tipos":[
        {"tipo":"normal"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -1128,12 +1128,12 @@
      "habilidad":"Enjambre",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"veneno"},
+       {"tipo":"veneno"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Picadura"},
@@ -1150,15 +1150,15 @@
      "habilidad":"Foco interno",
      "tipos":[
        {"tipo":"veneno"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -1173,13 +1173,13 @@
      "habilidad":"Absorber electricidad",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Escaldar"},
@@ -1200,14 +1200,14 @@
     {"numero":"172","nombre":"Pichu",
      "habilidad":"Electricidad estática",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1222,12 +1222,12 @@
      "habilidad":"Sincronía",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Viento plata"},
@@ -1244,13 +1244,13 @@
     {"numero":"180","nombre":"Flaaffy",
      "habilidad":"Electricidad estática",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1266,13 +1266,13 @@
     {"numero":"181","nombre":"Ampharos",
      "habilidad":"Electricidad estática",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1296,9 +1296,9 @@
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1312,13 +1312,13 @@
     {"numero":"185","nombre":"Sudowoodo",
      "habilidad":"Cabeza roca",
      "tipos":[
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"lucha","nombre":"Contador"},
@@ -1333,12 +1333,12 @@
     {"numero":"186","nombre":"Politoed",
      "habilidad":"Absorber agua",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Escaldar"},
@@ -1357,13 +1357,13 @@
      "habilidad":"Absorber agua",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Agua lodosa"},
@@ -1378,14 +1378,14 @@
     {"numero":"196","nombre":"Espeon",
      "habilidad":"Sincronía",
      "tipos":[
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1400,14 +1400,14 @@
     {"numero":"197","nombre":"Umbreon",
      "habilidad":"Sincronía",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1420,13 +1420,13 @@
      "habilidad":"Madrugar",
      "tipos":[
        {"tipo":"normal"},
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"},
-       {"region":"sinnoh"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Doble rayo"},
@@ -1439,21 +1439,21 @@
         {"tipo":"psiquico","nombre":"Cambia fuerza"},
         {"tipo":"psiquico","nombre":"Psíquico"},
         {"tipo":"siniestro","nombre":"Triturar"},
-        {"tipo":"tierra","nombre":"Terremoto"},
+        {"tipo":"tierra","nombre":"Terremoto"}
       ]
     },
     {"numero":"208","nombre":"Steelix",
      "habilidad":"Cabeza roca",
      "tipos":[
        {"tipo":"acero"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Aligerar"},
@@ -1473,12 +1473,12 @@
     {"numero":"210","nombre":"Granbull",
      "habilidad":"Cabeza roca",
      "tipos":[
-       {"tipo":"hada"},
+       {"tipo":"hada"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"dragon","nombre":"Enfado"},
@@ -1501,13 +1501,13 @@
      "habilidad":"Experto",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -1523,15 +1523,15 @@
      "habilidad":"Agallas",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"lucha"},
+       {"tipo":"lucha"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Megacuerno"},
@@ -1546,12 +1546,12 @@
     {"numero":"217","nombre":"Ursaring",
      "habilidad":"Agallas",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Garra umbría"},
@@ -1564,21 +1564,21 @@
         {"tipo":"lucha","nombre":"Machada"},
         {"tipo":"lucha","nombre":"Onda certera"},
         {"tipo":"lucha","nombre":"Puño incremento"},
-        {"tipo":"psiquico","nombre":"Descanso"},
+        {"tipo":"psiquico","nombre":"Descanso"}
       ]
     },
     {"numero":"222","nombre":"Corsola",
      "habilidad":"Cura natural",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Rayo burbuja"},
@@ -1586,21 +1586,21 @@
         {"tipo":"normal","nombre":"Recuperación"},
         {"tipo":"psiquico","nombre":"Manto espejo"},
         {"tipo":"roca","nombre":"Joya de luz"},
-        {"tipo":"tierra","nombre":"Tierra viva"},
+        {"tipo":"tierra","nombre":"Tierra viva"}
       ]
     },
     {"numero":"226","nombre":"Mantine",
      "habilidad":"Absorber agua",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Rayo burbuja"},
@@ -1618,14 +1618,14 @@
      "habilidad":"Vista lince",
      "tipos":[
        {"tipo":"acero"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -1637,20 +1637,20 @@
         {"tipo":"volador","nombre":"Aire afilado"},
         {"tipo":"volador","nombre":"Golpe aéreo"},
         {"tipo":"volador","nombre":"Tajo aéreo"},
-        {"tipo":"volador","nombre":"Vuelo"},
+        {"tipo":"volador","nombre":"Vuelo"}
       ]
     },
     {"numero":"229","nombre":"Houndoom",
      "habilidad":"Absorber fuego",
      "tipos":[
        {"tipo":"siniestro"},
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Colmillo rayo"},
@@ -1662,18 +1662,18 @@
         {"tipo":"siniestro","nombre":"Juego sucio"},
         {"tipo":"siniestro","nombre":"Pulso umbrío"},
         {"tipo":"siniestro","nombre":"Triturar"},
-        {"tipo":"veneno","nombre":"Polución"},
+        {"tipo":"veneno","nombre":"Polución"}
       ]
     },
     {"numero":"232","nombre":"Donphan",
      "habilidad":"Robustez",
      "tipos":[
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"hoenn"}
+       {"nombre":"johto"},
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -1690,12 +1690,12 @@
     {"numero":"241","nombre":"Miltank",
      "habilidad":"Intrépido",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
-       {"region":"kalos"}
+       {"nombre":"johto"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1711,11 +1711,11 @@
     {"numero":"244","nombre":"Entei",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"},
+       {"nombre":"johto"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -1733,11 +1733,11 @@
     {"numero":"245","nombre":"Suicune",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"}
+       {"nombre":"johto"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidrobomba"},
@@ -1756,11 +1756,11 @@
      "habilidad":"Presión",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"segunda",
      "regiones":[
-       {"region":"johto"}
+       {"nombre":"johto"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -1797,7 +1797,7 @@
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"}
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1810,18 +1810,18 @@
         {"tipo":"planta","nombre":"Hoja aguda"},
         {"tipo":"planta","nombre":"Rayo solar"},
         {"tipo":"siniestro","nombre":"Tajo umbrío"},
-        {"tipo":"volador","nombre":"Golpe aéreo"},
+        {"tipo":"volador","nombre":"Golpe aéreo"}
       ]
     },
     {"numero":"256","nombre":"Combusken",
      "habilidad":"Mar llamas",
      "tipos":[
        {"tipo":"fuego"},
-       {"tipo":"lucha"},
+       {"tipo":"lucha"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"}
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Puño trueno"},
@@ -1839,11 +1839,11 @@
      "habilidad":"Torrente",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"}
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Agua lodosa"},
@@ -1863,8 +1863,8 @@
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -1879,12 +1879,12 @@
      "habilidad":"Enjambre",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"sinnoh"}
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Viento plata"},
@@ -1904,7 +1904,7 @@
       ],
       "generacion":"tercera",
       "regiones":[
-        {"region":"hoenn"}
+        {"nombre":"hoenn"}
       ],
       "movimientos":[
         {"tipo":"lucha","nombre":"Demolición"},
@@ -1914,21 +1914,21 @@
         {"tipo":"psiquico","nombre":"Descanso"},
         {"tipo":"psiquico","nombre":"Paranormal"},
         {"tipo":"siniestro","nombre":"Pulso umbrío"},
-        {"tipo":"tierra","nombre":"Excavar"},
+        {"tipo":"tierra","nombre":"Excavar"}
       ]
     },
     {"numero":"278","nombre":"Wingull",
      "habilidad":"Vista lince",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -1944,14 +1944,14 @@
      "habilidad":"Vista lince",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -1971,13 +1971,13 @@
      "habilidad":"Rastro ",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"hada"},
+       {"tipo":"hada"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Rayo"},
@@ -2003,7 +2003,7 @@
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"}
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -2028,8 +2028,8 @@
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Garra umbría"},
@@ -2049,12 +2049,12 @@
      "habilidad":"Impulso",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Cortefuria"},
@@ -2069,12 +2069,12 @@
      "habilidad":"Superguarda",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"fantasma"},
+       {"tipo":"fantasma"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Cortefuria"},
@@ -2090,12 +2090,12 @@
     {"numero":"295","nombre":"Exploud",
      "habilidad":"Insonorizar",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Puño trueno"},
@@ -2119,8 +2119,8 @@
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidropulso"},
@@ -2151,9 +2151,9 @@
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -2173,12 +2173,12 @@
     {"numero":"309","nombre":"Manectric",
      "habilidad":"Electricidad estática",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Colmillo rayo"},
@@ -2196,12 +2196,12 @@
      "habilidad":"Piel tosca",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Acua jet"},
@@ -2217,13 +2217,13 @@
     {"numero":"321","nombre":"Wailord",
      "habilidad":"Velo agua",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cuerpopesado"},
@@ -2242,12 +2242,12 @@
      "habilidad":"Roca sólida",
      "tipos":[
        {"tipo":"fuego"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -2266,12 +2266,12 @@
     {"numero":"324","nombre":"Torkoal",
      "habilidad":"Humo blanco",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -2293,13 +2293,13 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"dragon"},
+       {"tipo":"dragon"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -2318,11 +2318,11 @@
      "habilidad":"Velo arena",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"lucha","nombre":"Demolición"},
@@ -2333,21 +2333,21 @@
         {"tipo":"planta","nombre":"Gigadrenado"},
         {"tipo":"siniestro","nombre":"Pulso umbrío"},
         {"tipo":"tierra","nombre":"Púas"},
-        {"tipo":"veneno","nombre":"Puya nociva"},
+        {"tipo":"veneno","nombre":"Puya nociva"}
       ]
     },
     {"numero":"334","nombre":"Altaria",
      "habilidad":"Cura natural",
      "tipos":[
        {"tipo":"dragon"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"dragon","nombre":"Pulso dragón"},
@@ -2364,13 +2364,13 @@
     {"numero":"335","nombre":"Zangoose",
      "habilidad":"Inmunidad",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Tijera X"},
@@ -2385,13 +2385,13 @@
     {"numero":"336","nombre":"Seviper",
      "habilidad":"Mudar",
      "tipos":[
-       {"tipo":"veneno"},
+       {"tipo":"veneno"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -2413,13 +2413,13 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"roca"},
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -2439,13 +2439,13 @@
      "habilidad":"Caparazón",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Escaldar"},
@@ -2463,11 +2463,11 @@
      "habilidad":"Ventosas",
      "tipos":[
        {"tipo":"roca"},
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"}
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"normal","nombre":"Estrujon"},
@@ -2480,12 +2480,12 @@
     {"numero":"350","nombre":"Milotic",
      "habilidad":"Escama especial",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"sinnoh"}
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -2502,13 +2502,13 @@
      "habilidad":"Clorofila",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"unova"}
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -2528,14 +2528,14 @@
     {"numero":"359","nombre":"Absol",
      "habilidad":"Afortunado",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidropulso"},
@@ -2556,12 +2556,12 @@
      "habilidad":"Gélido",
      "tipos":[
        {"tipo":"hielo"},
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidropulso"},
@@ -2579,12 +2579,12 @@
      "habilidad":"Intimidación",
      "tipos":[
        {"tipo":"dragon"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"kalos"}
+       {"nombre":"hoenn"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -2603,12 +2603,12 @@
      "habilidad":"Cuerpo puro",
      "tipos":[
        {"tipo":"acero"},
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"},
-       {"region":"unova"}
+       {"nombre":"hoenn"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -2625,11 +2625,11 @@
     {"numero":"379","nombre":"Registeel",
      "habilidad":"Cuerpo puro",
      "tipos":[
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"}
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -2646,11 +2646,11 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"dragon"},
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"}
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Surf"},
@@ -2667,11 +2667,11 @@
     {"numero":"386","nombre":"Deoxys",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"tercera",
      "regiones":[
-       {"region":"hoenn"}
+       {"nombre":"hoenn"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -2692,11 +2692,11 @@
      "habilidad":"Espesura",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -2719,7 +2719,7 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Puño trueno"},
@@ -2743,7 +2743,7 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidrobomba"},
@@ -2762,8 +2762,8 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -2780,7 +2780,7 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -2800,7 +2800,7 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -2821,7 +2821,7 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Danza aleteo"},
@@ -2843,8 +2843,8 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -2861,9 +2861,9 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Salmuera"},
@@ -2883,7 +2883,7 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Agua lodosa"},
@@ -2894,7 +2894,7 @@
         {"tipo":"normal","nombre":"Golpe cuerpo"},
         {"tipo":"tierra","nombre":"Terremoto"},
         {"tipo":"veneno","nombre":"Bomba lodo"},
-        {"tipo":"veneno","nombre":"Onda tóxica"},
+        {"tipo":"veneno","nombre":"Onda tóxica"}
       ]
     },
     {"numero":"426","nombre":"Drifblim",
@@ -2905,9 +2905,9 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Viento plata"},
@@ -2929,8 +2929,8 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"fuego","nombre":"Puño fuego"},
@@ -2950,8 +2950,8 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -2970,7 +2970,7 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -2989,8 +2989,8 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"fuego","nombre":"Lanzallamas"},
@@ -3014,8 +3014,8 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -3037,7 +3037,7 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Bola sombra"},
@@ -3055,8 +3055,8 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -3082,9 +3082,9 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -3112,9 +3112,9 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Puño trueno"},
@@ -3135,9 +3135,9 @@
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Bomba imán"},
@@ -3154,12 +3154,12 @@
      "habilidad":"Roca sólida",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -3182,12 +3182,12 @@
      "habilidad":"Nevada",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"hielo"},
+       {"tipo":"hielo"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidropulso"},
@@ -3205,12 +3205,12 @@
     {"numero":"465","nombre":"Tangrowth",
      "habilidad":"Defensa hoja",
      "tipos":[
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"fuego","nombre":"Día soleado"},
@@ -3230,12 +3230,12 @@
     {"numero":"466","nombre":"Electivire",
      "habilidad":"Electromotor",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Bola voltio"},
@@ -3252,12 +3252,12 @@
     {"numero":"467","nombre":"Magmortar",
      "habilidad":"Cuerpo llama",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Puño trueno"},
@@ -3273,12 +3273,12 @@
      "habilidad":"Entusiasmo",
      "tipos":[
        {"tipo":"hada"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -3292,19 +3292,19 @@
         {"tipo":"normal","nombre":"Velocidad extrema"},
         {"tipo":"psiquico","nombre":"Psíquico"},
         {"tipo":"volador","nombre":"Ataque aéreo"},
-        {"tipo":"volador","nombre":"Tajo aéreo"},
+        {"tipo":"volador","nombre":"Tajo aéreo"}
       ]
     },
     {"numero":"471","nombre":"Glaceon",
      "habilidad":"Manto níveo",
      "tipos":[
-       {"tipo":"hielo"},
+       {"tipo":"hielo"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -3320,13 +3320,13 @@
      "habilidad":"Corte fuerte",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola ferréa"},
@@ -3344,11 +3344,11 @@
     {"numero":"474","nombre":"Porygon-Z",
      "habilidad":"Adaptable",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Doble rayo"},
@@ -3376,11 +3376,11 @@
     {"numero":"477","nombre":"Dusknoir",
      "habilidad":"Presión",
      "tipos":[
-       {"tipo":"fantasma"},
+       {"tipo":"fantasma"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Puño sombra"},
@@ -3396,12 +3396,12 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"electrico"},
-       {"tipo":"fantasma"},
+       {"tipo":"fantasma"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"},
-       {"region":"kalos"}
+       {"nombre":"sinnoh"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Hidrobomba"},
@@ -3421,11 +3421,11 @@
      "habilidad":"Presión",
      "tipos":[
        {"tipo":"acero"},
-       {"tipo":"dragon"},
+       {"tipo":"dragon"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -3443,11 +3443,11 @@
      "habilidad":"Absorber fuego",
      "tipos":[
        {"tipo":"fuego"},
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -3471,11 +3471,11 @@
     {"numero":"486","nombre":"Regigigas",
      "habilidad":"Inicio lento",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cuerpopesado"},
@@ -3497,11 +3497,11 @@
      "habilidad":"Levitación",
      "tipos":[
        {"tipo":"fantasma"},
-       {"tipo":"dragon"},
+       {"tipo":"dragon"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -3516,11 +3516,11 @@
     {"numero":"491","nombre":"Darkrai",
      "habilidad":"Mal sueño",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"cuarta",
      "regiones":[
-       {"region":"sinnoh"}
+       {"nombre":"sinnoh"}
      ],
       "movimientos":[
         {"tipo":"hielo","nombre":"Rayo hielo"},
@@ -3534,11 +3534,11 @@
      "habilidad":"Tinovictoria",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Rayo carga"},
@@ -3558,7 +3558,7 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"dragon","nombre":"Cola dragón"},
@@ -3575,11 +3575,11 @@
      "habilidad":"Mar llamas",
      "tipos":[
        {"tipo":"fuego"},
-       {"tipo":"lucha"},
+       {"tipo":"lucha"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Escaldar"},
@@ -3596,11 +3596,11 @@
     {"numero":"506","nombre":"Lillipup",
      "habilidad":"Recogida",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Colmillo rayo"},
@@ -3616,11 +3616,11 @@
     {"numero":"508","nombre":"Stoutland",
      "habilidad":"Intimidación",
      "tipos":[
-       {"tipo":"normal"},
+       {"tipo":"normal"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Surf"},
@@ -3640,12 +3640,12 @@
     {"numero":"509","nombre":"Purrloin",
      "habilidad":"Flexibilidad",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -3662,12 +3662,12 @@
     {"numero":"512","nombre":"Simisage",
      "habilidad":"Gula",
      "tipos":[
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Garra umbría"},
@@ -3687,12 +3687,12 @@
     {"numero":"514","nombre":"Simisear",
      "habilidad":"Gula",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Garra umbría"},
@@ -3713,12 +3713,12 @@
     {"numero":"516","nombre":"Simipour",
      "habilidad":"Gula",
      "tipos":[
-       {"tipo":"agua"},
+       {"tipo":"agua"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Escaldar"},
@@ -3737,11 +3737,11 @@
     {"numero":"523","nombre":"Zebstrika",
      "habilidad":"Pararrayos",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Rayo"},
@@ -3753,12 +3753,12 @@
     {"numero":"526","nombre":"Gigalith",
      "habilidad":"Robustez",
      "tipos":[
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -3775,12 +3775,12 @@
      "habilidad":"Ignorante",
      "tipos":[
        {"tipo":"psiquico"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Rayo carga"},
@@ -3794,11 +3794,11 @@
      "habilidad":"Poder arena",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Garra metal"},
@@ -3813,11 +3813,11 @@
      "habilidad":"Toque tóxico",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"tierra"},
+       {"tipo":"tierra"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Agua lodosa"},
@@ -3836,12 +3836,12 @@
      "habilidad":"Punto tóxico",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"veneno"},
+       {"tipo":"veneno"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -3859,7 +3859,7 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"planta","nombre":"Energibola"},
@@ -3875,11 +3875,11 @@
     {"numero":"549","nombre":"Lilligant",
      "habilidad":"Clorofila",
      "tipos":[
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"planta","nombre":"Aromaterapia"},
@@ -3897,12 +3897,12 @@
      "habilidad":"Autoestima",
      "tipos":[
        {"tipo":"tierra"},
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -3921,11 +3921,11 @@
     {"numero":"555","nombre":"Darmanitan",
      "habilidad":"Potencia bruta",
      "tipos":[
-       {"tipo":"fuego"},
+       {"tipo":"fuego"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"fuego","nombre":"Envite ígneo"},
@@ -3946,12 +3946,12 @@
      "habilidad":"Caparazón",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"roca"},
+       {"tipo":"roca"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Tijera X"},
@@ -3967,11 +3967,11 @@
     {"numero":"563","nombre":"Cofagrigus",
      "habilidad":"Momia",
      "tipos":[
-       {"tipo":"fantasma"},
+       {"tipo":"fantasma"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Bola sombra"},
@@ -3986,12 +3986,12 @@
     {"numero":"571","nombre":"Zoroark",
      "habilidad":"Ilusión",
      "tipos":[
-       {"tipo":"siniestro"},
+       {"tipo":"siniestro"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"fuego","nombre":"Lanzallamas"},
@@ -4005,12 +4005,12 @@
     {"numero":"579","nombre":"Reuniclus",
      "habilidad":"Muro mágico",
      "tipos":[
-       {"tipo":"psiquico"},
+       {"tipo":"psiquico"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -4028,12 +4028,12 @@
      "habilidad":"Vista lince",
      "tipos":[
        {"tipo":"agua"},
-       {"tipo":"volador"},
+       {"tipo":"volador"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Acua aro"},
@@ -4052,11 +4052,11 @@
      "habilidad":"Herbívoro",
      "tipos":[
        {"tipo":"normal"},
-       {"tipo":"planta"},
+       {"tipo":"planta"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Megacuerno"},
@@ -4074,11 +4074,11 @@
      "habilidad":"Ojocompuesto",
      "tipos":[
        {"tipo":"bicho"},
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Doble rayo"},
@@ -4099,12 +4099,12 @@
      "habilidad":"Punta acero",
      "tipos":[
        {"tipo":"planta"},
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -4119,11 +4119,11 @@
     {"numero":"600","nombre":"Klang",
      "habilidad":"Más",
      "tipos":[
-       {"tipo":"acero"},
+       {"tipo":"acero"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -4136,11 +4136,11 @@
     {"numero":"603","nombre":"Eelektrik",
      "habilidad":"Levitación",
      "tipos":[
-       {"tipo":"electrico"},
+       {"tipo":"electrico"}
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -4162,7 +4162,7 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -4188,8 +4188,8 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Bola sombra"},
@@ -4210,8 +4210,8 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"dragon","nombre":"Cola dragón"},
@@ -4233,8 +4233,8 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Danza lluvia"},
@@ -4255,8 +4255,8 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Ida Y Vuelta"},
@@ -4277,8 +4277,8 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cabezahierro"},
@@ -4307,8 +4307,8 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cuerpopesado"},
@@ -4338,8 +4338,8 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cuerpopesado"},
@@ -4360,7 +4360,7 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Garra sombra"},
@@ -4381,8 +4381,8 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"},
-       {"region":"kalos"}
+       {"nombre":"unova"},
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -4406,7 +4406,7 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Picadura"},
@@ -4430,7 +4430,7 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Cola férrea"},
@@ -4456,7 +4456,7 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"dragon","nombre":"Cometa draco"},
@@ -4481,7 +4481,7 @@
      ],
      "generacion":"quinta",
      "regiones":[
-       {"region":"unova"}
+       {"nombre":"unova"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco resplandor"},
@@ -4508,7 +4508,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro bola"},
@@ -4537,7 +4537,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Escaldar"},
@@ -4559,7 +4559,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Surf"},
@@ -4580,7 +4580,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de acero"},
@@ -4602,7 +4602,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Polvo explosivo"},
@@ -4626,7 +4626,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"electrico","nombre":"Voltio Cruel"},
@@ -4650,7 +4650,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Surf"},
@@ -4674,7 +4674,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Surf"},
@@ -4699,7 +4699,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"bicho","nombre":"Doble rayo"},
@@ -4727,7 +4727,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Aligerar"},
@@ -4749,7 +4749,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Foco Resplandor"},
@@ -4760,7 +4760,7 @@
         {"tipo":"lucha","nombre":"Esfera Aural"},
         {"tipo":"normal","nombre":"Hiperrayo"},
         {"tipo":"siniestro","nombre":"Pulso Umbrío"},
-        {"tipo":"veneno","nombre":"Onda Tóxica"},
+        {"tipo":"veneno","nombre":"Onda Tóxica"}
       ]
     },
     {"numero":"697","nombre":"Tyrantrum",
@@ -4771,7 +4771,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"dragon","nombre":"Cola dragón"},
@@ -4791,7 +4791,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Giro Bola"},
@@ -4811,7 +4811,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"agua","nombre":"Acua Cola"},
@@ -4836,7 +4836,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"fantasma","nombre":"Garra umbría"},
@@ -4860,7 +4860,7 @@
      ],
      "generacion":"sexta",
      "regiones":[
-       {"region":"kalos"}
+       {"nombre":"kalos"}
      ],
       "movimientos":[
         {"tipo":"acero","nombre":"Ala de Acero"},
@@ -4878,4 +4878,4 @@
         {"tipo":"volador","nombre":"Vuelo"}
       ]
     }
-];
+]
