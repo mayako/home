@@ -80,8 +80,9 @@ $(document).ready(function() {
 
     // Close aside
     $("#pk-ball").click(function(){
-        $("aside").animate({'width':'0px'});
-        $("#main").animate({'width': "78%"});
+        // $("aside").animate({'width':'0px'});
+        // $("#main").animate({'width': "78%"});
+        $("aside").hide();
     });
 
     NProgress.done();
@@ -215,8 +216,9 @@ function selectPokemon(pokemon) {
     });
 
     $('#footer').css('backgroundColor',color);
-    $('#main').animate({'width':'69%'});
-    $('aside').animate({'width':'350px'});
+    // $('#main').animate({'width':'69%'});
+    // $('aside').animate({'width':'350px'});
+    $('aside').show();
 }
 
 function clickListItem() {
